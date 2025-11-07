@@ -93,14 +93,15 @@ public void openRegisterForm(){
       }
 
     }
+    public String getDuplicateUserMessage(){
+        duplicateUserErrorMessage = driver.findElement(By.id("customer.username.errors"));
+        return duplicateUserErrorMessage.getText();
+    }
     public boolean isRegisterSuccess(){
 
     return successMessage.isDisplayed();
     }
-    public String getDuplicateUserMessage(){
-    duplicateUserErrorMessage = driver.findElement(By.id("customer.username.errors"));
-    return duplicateUserErrorMessage.getText();
-    }
+
     public String getRequiredFirstNameMessage(){
     requiredFirstNameMessage =driver.findElement(By.id("customer.firstName.errors"));
     return requiredFirstNameMessage.getText();

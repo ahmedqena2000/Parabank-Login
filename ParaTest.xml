@@ -2,8 +2,10 @@
     <test name="TestAll">
         <classes>
             <class name="RegisterTest"/>
-            <class name="AccountLoginTest"/>
-            <class name="ForgetLoginInfoPageTest"/>
+            <class name="RegisterDuplicateUserTest"/>
+            <class name="EmptyFieldsRegistration"/>
+            <class name="AccountLoginMaximumTest"/>
+            <class name="ForgetLoginInfoSSNPage"/>
         </classes>
     </test>
 </suite>
