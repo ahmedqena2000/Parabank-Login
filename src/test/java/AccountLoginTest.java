@@ -10,9 +10,9 @@ public class AccountLoginTest extends BaseClass{
     @DataProvider(name = "loginData")
     public Object [][] MyLoginData() {
         return new Object[][]{
-                {"LIONELMESSI", "12345"},
-                {"lIONELMESSI", "123"},
-                {"LIONELMESSI", "1456"}
+                {"TRIKA", "12345"},
+                {"TRIKA", "123"},
+                {"TRIKA", "1456"}
         };
     }
     @Test(dataProvider = "loginData")
