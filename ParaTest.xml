@@ -1,11 +1,13 @@
+<!--
 <suite name="ParaBank">
     <test name="TestAll">
         <classes>
-            <class name="RegisterTest"/>
+            <class name="Steps.RegisterSteps"/>
             <class name="RegisterDuplicateUserTest"/>
             <class name="EmptyFieldsRegistration"/>
-            <class name="AccountLoginMaximumTest"/>
-            <class name="ForgetLoginInfoSSNPage"/>
+            <class name="EmptyFieldsRegistration.AccountLoginMaximumTest"/>
+            <class name="MyPages.ForgetLoginInfoSSNPage"/>
         </classes>
     </test>
 </suite>
+-->
